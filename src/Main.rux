@@ -1,0 +1,8 @@
+import Std::Io::Print;
+
+// Entry point of the program
+func Main() -> int {
+	Print("Hello, Rux!");
+	return 0;
+}
+
