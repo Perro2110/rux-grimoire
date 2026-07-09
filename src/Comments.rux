@@ -1,0 +1,66 @@
+import Std::Io::Print;
+
+/// Divides two integers and returns the result
+/// @param a: The dividend
+/// @param b: The divisor
+/// @return: The result of dividing a by b
+func Divide(a: int64, b: int64) -> int64 {
+    // Code here
+}
+
+/// Raises base to the power of exp
+/// @param base: The number to raise
+/// @param exp: The exponent
+/// @return: The result of base raised to the power of exp
+func Pow(base: float64, exp: float64) -> float64 {
+    // Code here
+}
+
+/// Represents a 2D point in space
+struct Point {
+    /// The horizontal coordinate
+    x: float64;
+
+    /// The vertical coordinate
+    y: float64;
+}
+
+/// Returns the absolute value of x
+func Abs(x: float64) -> float64 {
+    // Code here
+}
+
+/// Parses a source file and returns a syntax tree
+/// @param path: Path to the .rux source file
+/// @return The root AST node, or null on parse failure
+func Parse(path: String) -> *Node {
+    // Code here
+}
+
+
+
+func Main() -> int {
+
+    // This is a line comment
+    let x = 12;
+    let y = 60; // Inline comment
+
+    /* This is a block comment */
+
+    /*
+        This is a multi-line
+        block comment.
+    */
+    let z = 10;
+
+    /*
+        Temporarily disabled
+        /*
+            let result = Compute(x);
+            Print(result);
+        */
+    */
+
+    Print("Hello, World!");
+    return 0;
+}
